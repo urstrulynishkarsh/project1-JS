@@ -23,6 +23,21 @@
     <div class="text-[#FF69B4] text-[20px] font-medium">BY NISHKARSH VERMA</div>
     </div>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script>
+        const val=document.querySelector('#hello');
+function increment(){
+    let count=parseInt(val.innerText);
+    count+=1;
+    val.innerText=count;
+
+}
+
+function decrement(){
+    let count=parseInt(val.innerText);
+    count-=1;
+    val.innerText=count;
+
+}
+    </script>
 </body>
 </html>
